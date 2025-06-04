@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(green-glow-in-dark-8k-oy.jpg);
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    border: black;
+    border-radius: 2px;
+    background:transparent;
+    backdrop-filter: blur(1cm);
+    width: 50%;
+    border-radius: 20px;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: left;
+    color: #ffffff;
+}
+
+th {
+    background-color: #ffffff00;
+    color: rgb(255, 255, 255);
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff00;
+}
+
+button {
+    background-color: #ffffff; 
+    color: white; 
+    text-decoration: none;
+    padding: 5px 10px; 
+    border-radius: 10px;
+    outline: none;
+    
+}
+button:hover {
+    text-decoration: none; 
+    background-color: #28a745; 
+}
+
+button:active {
+    background-color: #00ff6e; 
+    text-decoration: none;
+}
+button a {
+    text-decoration: none; 
+    color: black;
+}
+
+h1{
+    color: #ffffff;
+}
+h2{
+    color: #ffffff;
+    text-align: center;
+}
+.topnav {
+    background: transparent;
+    overflow: hidden;
+    backdrop-filter: blur(1cm);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+  
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.topnav img{
+    float: right;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+footer {
+    backdrop-filter: blur(3cm);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+footer p {
+    margin: 0;
+}
+  
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
